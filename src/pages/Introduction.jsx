@@ -3,7 +3,7 @@ const Introduction = () =>{
 
     return(
         <div>
-            <p>this is an introduction page</p>
+            <p>this is an introduction pagev2</p>
         </div>
     )
 }
