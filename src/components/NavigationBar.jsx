@@ -9,6 +9,9 @@ const NavigationBar = () => {
         <li>
           <Link to="/Skills">Skills</Link>
         </li>
+        <li>
+        <Link to="/">Main</Link>
+        </li>
         {/* Add more navigation links as needed */}
       </ul>
     </nav>
