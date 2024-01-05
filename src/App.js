@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-      <Route path="/" element ={<Intro />} /> 
+      <Route path="/seankimportfolio" element ={<Intro />} /> 
       <Route path="/Skills" element={<Skills />} />
       </Routes>
       </BrowserRouter>
