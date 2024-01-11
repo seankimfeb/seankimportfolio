@@ -2,8 +2,9 @@ const Skills = () =>{
 
 
     return(
-        <div>
-            <p class="text-yellow-500">this is a Skills page2</p>
+        <div class = "text-3xl mt-20">
+            <p >Languages: <br/> -Java <br/>-Python</p>
+            
         </div>
     )
 }

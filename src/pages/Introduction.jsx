@@ -2,11 +2,13 @@ const Introduction = () =>{
 
 
     return(
-        <section class="bg-gray-50 dark:bg-gray-900">
+        
         <div>
-            <p class="text-yellow-500">this is an introduction pagev2</p>
+            <p class = "text-3xl mt-20">Hello, My name is Seong Su(Sean). I am a Computer Science student in York University.<br/>
+            I was an Accounting & Financial Management student in Western University, </p>
+            
         </div>
-        </section>
+        
     )
 }
 export default Introduction
