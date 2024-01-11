@@ -3,7 +3,7 @@ const Skills = () =>{
 
     return(
         <div>
-            <p>this is a Skills page</p>
+            <p class="text-yellow-500">this is a Skills page2</p>
         </div>
     )
 }
