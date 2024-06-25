@@ -12,6 +12,10 @@ const Skills = () => {
                         <li>Python</li>
                         <li>C</li>
                         <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>XQuery</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                     </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -20,6 +24,27 @@ const Skills = () => {
                         <li>Spring Boot</li>
                         <li>Node.js</li>
                         <li>React</li>
+                        <li>Express.js</li>
+                        
+                    </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h3 className="text-2xl font-semibold mb-4 text-gray-700">Developer Tools</h3>
+                    <ul className="list-disc list-inside text-lg text-gray-600">
+                        <li>Docker</li>
+                        <li>MS Power Apps</li>
+                        <li>Postman</li>
+                        <li>SonarQube</li>
+                    </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h3 className="text-2xl font-semibold mb-4 text-gray-700">Other</h3>
+                    <ul className="list-disc list-inside text-lg text-gray-600">
+                        <li>MongoDB</li>
+                        <li>SQLite</li>
+                        <li>MySQL</li>
+                        <li>DBeaver</li>
+                        <li>Visual Studio Code</li>
                     </ul>
                 </div>
             </div>
