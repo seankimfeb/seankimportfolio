@@ -21,10 +21,10 @@ const NavigationBar = () => {
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-000 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-000 md:dark:bg-gray-000 dark:border-gray-700">
     <li>
-          <Link to="/skills">Skills</Link>
+      <Link to="/seankimportfolio">Main</Link>
         </li>
         <li>
-        <Link to="/seankimportfolio">Main</Link>
+        <Link to="/skills">Skills</Link>
         </li>
         <li>
           <Link to = "/projects">Projects</Link>
