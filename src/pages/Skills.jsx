@@ -31,10 +31,13 @@ const Skills = () => {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                     <h3 className="text-2xl font-semibold mb-4 text-gray-700">Developer Tools</h3>
                     <ul className="list-disc list-inside text-lg text-gray-600">
+                        <li>Git</li>
                         <li>Docker</li>
                         <li>MS Power Apps</li>
                         <li>Postman</li>
                         <li>SonarQube</li>
+                        <li>Visual Studio Code</li>
+                        <li>Android Studio</li>
                     </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -44,7 +47,7 @@ const Skills = () => {
                         <li>SQLite</li>
                         <li>MySQL</li>
                         <li>DBeaver</li>
-                        <li>Visual Studio Code</li>
+                        <li>MS Office</li>
                     </ul>
                 </div>
             </div>

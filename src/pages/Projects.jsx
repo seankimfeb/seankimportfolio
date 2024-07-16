@@ -28,6 +28,16 @@ const Projects = () => {
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md flex">
                     <div className="flex-1">
+                        <h3 className="text-2xl font-semibold mb-2 text-gray-700">Movie Search App</h3>
+                        <p className="text-gray-600">Web application that makes use of OMDb API to allow users to search movie titles and acquire movie info such as poster, release year, cast, and more</p>
+                    </div>
+                    <div className="ml-4">
+                        <p className="text-gray-600"> Java, Spring Boot</p>
+                        {/* You can add images or additional content here */}
+                    </div>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md flex">
+                    <div className="flex-1">
                         <h3 className="text-2xl font-semibold mb-2 text-gray-700">Carpool Application</h3>
                         <p className="text-gray-600">A mobile app that allows users to carpool and calculates how much cost of travel each person owes to the driver.</p>
                     </div>
@@ -48,16 +58,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Add more divs for additional projects */}
-                <div className="bg-white p-6 rounded-lg shadow-md flex">
-                    <div className="flex-1">
-                        <h3 className="text-2xl font-semibold mb-2 text-gray-700">Movie Search App (In Progress)</h3>
-                        <p className="text-gray-600">Web application that makes use of OMDb API to allow users to search movie titles and acquire movie info such as poster and release year</p>
-                    </div>
-                    <div className="ml-4">
-                        <p className="text-gray-600"> Java, Spring Boot</p>
-                        {/* You can add images or additional content here */}
-                    </div>
-                </div>
+
             </div>
         </div>
     );
