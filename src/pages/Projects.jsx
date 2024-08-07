@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="mt-20 p-8 bg-gray-100 rounded-lg shadow-lg">
-            <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">My Projects</h2>
+        <div className="p-6 bg-gray-100 rounded-lg shadow-md mt-10">
+            <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">Projects</h2>
             <div className="grid grid-cols-1 gap-8">
                 <div className="bg-white p-6 rounded-lg shadow-md flex">
                     <div className="flex-1">

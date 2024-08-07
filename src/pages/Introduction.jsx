@@ -1,22 +1,24 @@
 import React from 'react';
-import profileImage from '../components/images/profileimage.jpg';
+import profileImage from '../components/images/CK0A3325.JPG';
 import carpoolImage from '../components/images/carpoolimage.jpg';
 import shoeImage from '../components/images/shoeimage.jpg';
 import carstoreImage from '../components/images/carstore.png';
 
 const Introduction = () => {
     return (
-        <div className="p-6 bg-gray-100 rounded-lg shadow-md mt-20">
+        <div className="p-6 bg-gray-100 rounded-lg shadow-md mt-10">
             <div className="flex flex-col md:flex-row items-center mb-10">
                 <div className="md:w-1/3 flex justify-center mb-4 md:mb-0">
                     <img src={profileImage} alt="Profile" className="rounded-full w-32 md:w-48" />
                 </div>
                 <div className="md:w-2/3 text-center md:text-left">
-                    <p className="text-xl md:text-3xl text-gray-700">
-                        My name is Seong Su (Sean), and I am currently pursuing a degree in Computer Science at York University.
-                        Previously, I studied Accounting & Financial Management at Western University. I transitioned to Computer Science
-                        at York University after discovering my passion for programming and the dynamic challenges it presents.
+                <p className="text-3xl md:text-5xl text-gray-700">
+                    Seong Su Kim
                     </p>
+                    <p className="text-lg md:text-2xl text-gray-600 mt-2">
+                        Computer Science Student | Passionate about Web Development 
+                        </p>
+                    
                 </div>
             </div>
             <div className="mt-10">

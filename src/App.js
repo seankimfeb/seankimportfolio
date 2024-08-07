@@ -6,6 +6,7 @@ import NavBar from './components/NavigationBar';
 import Intro from './pages/Introduction';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Route path="/seankimportfolio" element ={<Intro />} /> 
       <Route path="/skills" element={<Skills />} />
       <Route path ="/projects" element = {<Projects />} />
+      <Route path ="/contact" element = {<Contact />} />
       </Routes>
       </BrowserRouter>
     
