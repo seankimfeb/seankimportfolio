@@ -56,7 +56,7 @@ const Projects = () => {
     <div className="flex-1">
         <div className="flex items-center">
             <h3 className="text-2xl font-semibold mb-2 text-gray-700">Data Format Converter</h3>
-            <a href="https://github.com/seankimfeb/moviesearch" target="_blank" rel="noopener noreferrer" className="ml-2">
+            <a href="https://github.com/seankimfeb/DataFormatConverter" target="_blank" rel="noopener noreferrer" className="ml-2">
                 <img src={githubimage} alt="GitHub" className="h-6 w-6" />
             </a>
         </div>
